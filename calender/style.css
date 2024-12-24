@@ -1,0 +1,91 @@
+#top {
+    width: 530px;
+    height: 100px;
+    padding: 0px 11px 0px 11px;
+    background: aqua;
+    border-radius: 70px 70px 0px 0px;
+display: flex;
+justify-content: center;
+box-shadow: 18px 4px 8px rgba(0, 0, 0, .4);
+align-items: center;
+gap: 14px;
+
+}
+
+div#days {
+    display: flex;
+    font-family: sans-serif;
+    gap: 21px;
+    color: white;
+    background: #000000;
+    box-shadow: 18px 4px 8px rgba(0, 0, 0, .4);
+    padding: 0px 11px 0px 11px;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+div#thridy {
+    width: 530px;
+    height: 400px;
+    box-shadow: 18px 4px 8px rgba(0, 0, 0, .4);
+    background: #000000;
+    padding: 0px 11px 0px 11px;
+    border-radius: 0px 0px 70px 70px;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+ 
+}
+
+h3:hover{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div#thridy{
+    width: 530px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px;
+    gap: 13px;
+    height: 425px;
+    box-shadow: 18px 4px 8px rgba(0, 0, 0, .4);
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    padding: 0px 11px 0px 11px;
+    border-radius: 0px 0px 70px 70px;
+}
+
+h2#month {
+    margin: 0;
+}
+
+h1#year {
+    margin: 0;
+}
+h1#date {
+    margin: 0;
+}
+
+#date{
+    color: #000000;
+    
+}
+h4#day {
+    margin: 0;
+}
